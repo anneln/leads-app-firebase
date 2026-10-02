@@ -1,28 +1,39 @@
-# Getting Started
+# Mobile Leads web App
 
-Install the dependencies and run the project
+A simple mobile web app to save and organize leads (URLs). This is a personal training project, based on a Scrimba course. I started from Scrimba's starter code, then wrote the code myself. I built it to practice vanilla JavaScript and Firebase.
 
-```
-npm install
-npm start
-```
+**Live demo:** [leads-tracker-ahb.netlify.app](https://leads-tracker-ahb.netlify.app/)
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
+> **Note:** the backend is currently disconnected. You can still see the interface, but saving and loading leads are disabled.
 
-## About Scrimba
+## About
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+The first version of this project was a Chrome extension. It stored the leads in `localStorage`. This worked, but the data stayed on one browser. I could not sync it between devices.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+So I rebuilt the project as a mobile web app with a cloud database. The current version is the result of that rewrite.
 
-Happy Coding!
+With this project, I practiced:
 
-## About Ahbricet
+- DOM manipulation and user input with vanilla JavaScript
+- Saving data to a cloud database (Firebase Realtime Database)
+- Making a web app installable on mobile (PWA: manifest, app icons)
+- Deploying a static frontend on Netlify
 
-Project customized by https://ahbricet.com, visit my website to know more about my work. 💚
-Fork from scrimba and code on VSCode.
-This is my first project with firebase. 😁
+## Project status & Security Decision
+
+Following recent changes to Firebase's pricing models, and to prevent unauthorized access or abuse, I revoked the database credentials and disconnected the backend. The frontend remains online to showcase the interface, but data persistence is disabled.
+
+**This allowed me to practice cloud resource management and safe decommissioning of services.** The frontend remains online to showcase the UI and the PWA implementation.
+
+## What I learned
+
+- Building a small app around real user input and persistent storage
+- Comparing storage options (`localStorage` vs. cloud database)
+- Reading and writing to the Firebase Realtime Database from the client
+- Making a web app installable on mobile (Web manifest, app icons)
+- Making a security decision about exposing a cloud service
+- Deploying and managing a project on Netlify
+
+---
+
+_This is a learning project, shared as part of my portfolio. The code is simple on purpose and is not maintained._
