@@ -16,7 +16,7 @@ With this project, I practiced:
 
 - DOM manipulation and user input with vanilla JavaScript
 - Saving data to a cloud database (Firebase Realtime Database)
-- Making a web app installable on mobile (PWA: manifest, app icons)
+- Making a web app installable on mobile (manifest, app icons)
 - Deploying a static frontend on Netlify
 
 ## Project status & Security Decision
@@ -30,7 +30,7 @@ Following recent changes to Firebase's pricing models, and to prevent unauthoriz
 - Building a small app around real user input and persistent storage
 - Comparing storage options (`localStorage` vs. cloud database)
 - Reading and writing to the Firebase Realtime Database from the client
-- Making a web app installable on mobile (Web manifest, app icons)
+- Write a modern Web manifest
 - Making a security decision about exposing a cloud service
 - Deploying and managing a project on Netlify
 
