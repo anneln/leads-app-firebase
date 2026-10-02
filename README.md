@@ -23,7 +23,7 @@ With this project, I practiced:
 
 Following recent changes to Firebase's pricing models, and to prevent unauthorized access or abuse, I revoked the database credentials and disconnected the backend. The frontend remains online to showcase the interface, but data persistence is disabled.
 
-**This allowed me to practice cloud resource management and safe decommissioning of services.** The frontend remains online to showcase the UI and the PWA implementation.
+**This allowed me to practice cloud resource management**
 
 ## What I learned
 
